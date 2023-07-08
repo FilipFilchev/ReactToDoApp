@@ -1,5 +1,3 @@
-# ReactToDoApp
-
 
 # React ToDo App
 
