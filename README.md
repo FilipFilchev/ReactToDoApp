@@ -18,44 +18,47 @@ To run this application, you'll need:
 
 1. Clone the repository:
 
-
+```
 git clone https://github.com/FilipFilchev/ReactToDoApp.git
-
+```
 2. Navigate to the project directory:
-
+```
 cd ReactToDoApp
-
+```
 3. Install the dependencies:
-
+```
 npm install
+```
 Starting the Development Server
 To start the development server, run:
-
+```
 npm start
+```
 Then open http://localhost:3000 to view it in the browser.
 
 4. Deploying to Firebase
 Install Firebase CLI globally:
-
+```
 npm install -g firebase-tools
-
+```
 - Login to Firebase:
-
+```
 firebase login
-
+```
 - Build your React app:
-
+```
 npm run build
-
+```
 - Initialize Firebase in your project:
-
+```
 firebase init
-
+```
 - Choose "Hosting" when prompted, select your Firebase project, set "build" as your public directory, and configure as a single-page app.
 
 - Deploy your app to Firebase:
-
+```
 firebase deploy
+```
 Your app is now live! You can view it at https://your-app-id.firebaseapp.com
 
 ## Built With
